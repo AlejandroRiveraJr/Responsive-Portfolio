@@ -44,7 +44,14 @@ h2,h3{
     border-bottom: 2px solid #ccc;
     position: fixed;
     width: 100%;
-}
+    animation-name: headAnim;
+    animation-duration: 5s;
+    }
+
+@keyframes headAnim {
+        from {background-color: #fff;}
+        to {background-color: red;}
+    }
 #logo{
     width: 250px;
     height: 90px;
